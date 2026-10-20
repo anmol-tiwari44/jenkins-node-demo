@@ -2,9 +2,9 @@ pipeline {
 
     agent any
 
-    tools {
-        nodejs 'NodeJS-26'
-    }
+     tools {
+      nodejs 'Nodejs.26'
+     }
 
     options {
         skipDefaultCheckout(true)
